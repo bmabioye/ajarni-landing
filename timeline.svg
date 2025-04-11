@@ -1,0 +1,61 @@
+<svg width="1000" height="500" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <style>
+    .title { font-size: 36px; font-weight: bold; fill: #000; }
+    .subtitle { font-size: 20px; fill: #444; }
+    .year { font-size: 20px; font-weight: bold; fill: #000; }
+    .label { font-size: 18px; font-weight: bold; fill: #000; }
+    .text { font-size: 16px; fill: #444; }
+    .icon-circle { fill: #4f9df7; }
+    .icon-label { fill: white; font-weight: bold; font-size: 20px; text-anchor: middle; dominant-baseline: central; }
+    .line { stroke: #ccc; stroke-width: 3; }
+  </style>
+
+  <!-- Titles -->
+  <text x="500" y="50" text-anchor="middle" class="title">Funding Strategy</text>
+  <text x="500" y="85" text-anchor="middle" class="subtitle">Tiered Capital Approach · AED</text>
+
+  <!-- Timeline Line -->
+  <line x1="100" y1="250" x2="900" y2="250" class="line" />
+
+  <!-- Tier 1 -->
+  <circle cx="200" cy="250" r="12" fill="#ccc"/>
+  <circle cx="200" cy="170" r="40" class="icon-circle"/>
+  <text x="200" y="170" class="icon-label">💼</text>
+  <text x="120" y="125" class="label">Tier 1: Validation</text>
+  <text x="120" y="145" class="text">AED 400K for MVP</text>
+  <text x="120" y="165" class="text">+ Dubai pilot</text>
+  <text x="190" y="275" class="year">2025</text>
+
+  <!-- Tier 3 -->
+  <circle cx="400" cy="250" r="12" fill="#ccc"/>
+  <circle cx="400" cy="330" r="40" class="icon-circle"/>
+  <text x="400" y="330" class="icon-label">🚀</text>
+  <text x="320" y="375" class="label">Tier 3: Moonshot</text>
+  <text x="320" y="395" class="text">AED 50K for Saudi</text>
+  <text x="320" y="415" class="text">feasibility</text>
+
+  <!-- Tier 2 -->
+  <circle cx="600" cy="250" r="12" fill="#ccc"/>
+  <circle cx="600" cy="170" r="40" class="icon-circle"/>
+  <text x="600" y="170" class="icon-label">📈</text>
+  <text x="540" y="125" class="label">Tier 2: Scale</text>
+  <text x="540" y="145" class="text">AED 300K for Abu</text>
+  <text x="540" y="165" class="text">Dhabi + Sharjah</text>
+  <text x="590" y="275" class="year">2026</text>
+
+  <!-- Exit Leverage -->
+  <circle cx="800" cy="250" r="12" fill="#ccc"/>
+  <circle cx="800" cy="170" r="40" class="icon-circle"/>
+  <text x="800" y="170" class="icon-label">🎯</text>
+  <text x="740" y="125" class="label">Exit Leverage</text>
+  <text x="740" y="145" class="text">Acquisition Targets:</text>
+  <text x="740" y="165" class="text">Yardi/Bayut at 7x</text>
+  <text x="740" y="185" class="text">10 EBITDA (AED</text>
+  <text x="740" y="205" class="text">15M valuation by 2027)</text>
+  <text x="790" y="275" class="year">2027</text>
+
+  <!-- IPO Path -->
+  <text x="870" y="350" class="label">IPO Path</text>
+  <text x="870" y="370" class="text">DFM listing</text>
+  <text x="870" y="390" class="text">by 2028</text>
+</svg>
