@@ -109,7 +109,7 @@
 <p class="text-xl mb-8" data-ar="منصة تأجير ذكية تعمل بالذكاء الاصطناعي والبلوك تشين، متوافقة مع رؤية الإمارات 2030" data-en="AI + Blockchain-powered leasing, compliance, and tenant automation aligned with UAE Vision 2030.">AI + Blockchain-powered leasing, secure, equitable, and paperless rentals aligned with UAE Vision 2030.</p>
 <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 rtl:space-x-reverse">
 <a class="px-8 py-3 bg-yellow-400 text-blue-900 font-bold rounded-lg hover:bg-yellow-300 transition text-center hover-scale" data-ar="انضم إلى البرنامج التجريبي" data-en="Join Pilot Program" href="#waitlist">Join Pilot Program</a>
-<a class="px-8 py-3 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-blue-900 transition text-center hover-scale" data-ar="شاهد العرض" data-en="Watch Demo" href="#explainer-video">Watch Demo</a>
+<a class="px-8 py-3 border-2 border-white text-white font-bold rounded-lg hover:bg-white hover:text-blue-900 transition text-center hover-scale" data-ar="شاهد العرض" data-en="Watch Demo" href="https://youtu.be/AsxcKrvtMTw">Watch Demo</a>
 </div>
 </div>
 <div class="md:w-1/2 flex justify-center hover-scale">
@@ -259,7 +259,8 @@
 <div class="container explainer-video mx-auto px-4">
 <h2 class="text-3xl font-bold mb-6" data-ar="شاهد أجرني أثناء العمل" data-en="Watch Ajarni in Action">Watch Ajarni in Action</h2>
 <div class="aspect-w-16 aspect-h-9">
-<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" class="w-full rounded-xl" frameborder="0" height="478" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/AsxcKrvtMTw" title="Invest In Ajarni" width="849"></iframe>
+<!-- <iframe allowfullscreen="" class="w-full rounded-xl" src="https://www.youtube.com/embed/YOUR_VIDEO_ID"></iframe> -->
+<iframe width="849" height="478" class="w-full rounded-xl" src="https://www.youtube.com/embed/AsxcKrvtMTw" title="Invest In Ajarni" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 </div>
 </section>
@@ -304,6 +305,7 @@
 </div>
 </section>
 <!-- End of Enhancements -->
+
 <!-- Features Section -->
 <section class="py-16 bg-white dark:bg-gray-900" id="features">
 <div class="container mx-auto px-6">
@@ -396,7 +398,7 @@
 </div>
 </section>
 <!-- Waitlist Modal -->
-<div class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 modal-transition" id="waitlist-modal">
+<div class="flex inset-0 z-50 hidden items-center justify-center bg-black/50 modal-transition" id="waitlist-modal">
 <div class="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 animate-fade-in-up">
 <div class="flex justify-between items-center mb-6">
 <h3 class="text-2xl font-bold text-blue-900 dark:text-blue-200" data-ar="انضم إلى برنامج سكني التجريبي" data-en="Join Ajarni Pilot">Join Ajarni Pilot</h3>
@@ -427,7 +429,7 @@
 </div>
 </div>
 <!-- Investor Modal -->
-<div class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 modal-transition" id="investor-modal">
+<div class="flex inset-0 z-50 hidden items-center justify-center bg-black/50 modal-transition" id="investor-modal">
 <div class="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 animate-fade-in-up">
 <div class="flex justify-between items-center mb-6">
 <h3 class="text-2xl font-bold text-blue-900 dark:text-blue-200" data-ar="شراكة استثمارية" data-en="Investor Partnership">Investor Partnership</h3>
@@ -508,16 +510,11 @@
 <div>
 <h3 class="font-bold text-lg mb-4 text-yellow-400" data-ar="للملاك" data-en="For Owners">For Owners</h3>
 <ul class="space-y-2">
-<li><a class="text-blue-200 dark:text-blue-300 hover:text-white" data-ar="التسعير" data-en="Pricing" href="#" onclick="event.preventDefault(); openModal('coming-soon-modal');">Pricing</a></li>
-<li>
-    <a class="text-blue-200 dark:text-blue-300 hover:text-white" data-ar="عرض لوحة التحكم" data-en="Dashboard Demo" href="#" onclick="event.preventDefault(); openModal('coming-soon-modal');">Dashboard Demo</a>
-</li>
-<li>
-    <a class="text-blue-200 dark:text-blue-300 hover:text-white" data-ar="إعداد الحساب" data-en="Onboarding" href="#" onclick="event.preventDefault(); openModal('coming-soon-modal');">Onboarding</a>
-</li>
+<li><a class="text-blue-200 dark:text-blue-300 hover:text-white" data-ar="التسعير" data-en="Pricing" href="soon.html">Pricing</a></li>
+<li><a class="text-blue-200 dark:text-blue-300 hover:text-white" data-ar="عرض لوحة التحكم" data-en="Dashboard Demo" href="soon.html">Dashboard Demo</a></li>
+<li><a class="text-blue-200 dark:text-blue-300 hover:text-white" data-ar="إعداد الحساب" data-en="Onboarding" href="soon.html">Onboarding</a></li>
 </ul>
 </div>
-
 <div>
 <h3 class="font-bold text-lg mb-4 text-yellow-400" data-ar="اتصل بنا" data-en="Contact">Contact</h3>
 <ul class="space-y-2">
@@ -566,7 +563,7 @@
             menu.classList.toggle('shadow-lg');
         });
 
-       // close all modal first
+        // close all modal first
          function closeAllModals() {
             document.querySelectorAll('[id$="-modal"]').forEach(modal => {
               modal.classList.add('hidden');
@@ -688,25 +685,5 @@
         // Set initial language (English)
         document.documentElement.lang = 'en';
     </script>
-
-<!-- Coming Soon Modal -->
-<div class="fixed inset-0 z-50 hidden items-center justify-center bg-black/50 modal-transition" id="coming-soon-modal">
-<div class="bg-white dark:bg-gray-800 rounded-xl p-8 max-w-md w-full mx-4 animate-fade-in-up text-center">
-<div class="mb-4">
-<svg class="mx-auto w-16 h-16 text-blue-600 dark:text-yellow-400" fill="none" stroke="currentColor" stroke-width="1.5" viewbox="0 0 24 24">
-<path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round"></path>
-</svg>
-</div>
-<h3 class="text-2xl font-bold text-blue-900 dark:text-yellow-300 mb-4" data-ar="قريباً" data-en="Coming Soon">Coming Soon</h3>
-<p class="text-gray-700 dark:text-gray-300 mb-6" data-ar="نضع اللمسات الأخيرة. هل تريد وصول مبكر؟" data-en="We’re putting final touches. Want early access?">We’re putting final touches. Want early access?</p>
-<div class="space-y-3">
-<button class="w-full py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition" data-ar="انضم إلى القائمة" data-en="Join Waitlist" onclick="openModal('waitlist-modal')">Join Waitlist</button>
-<button class="w-full py-2 border border-blue-600 text-blue-600 dark:border-yellow-400 dark:text-yellow-400 rounded-lg hover:bg-blue-50 dark:hover:bg-yellow-900/20 transition" data-ar="استفسار المستثمرين" data-en="Investor Inquiry" onclick="openModal('investor-modal')">Investor Inquiry</button>
-</div>
-<div class="mt-6">
-<button class="text-sm text-gray-500 hover:text-gray-700 dark:hover:text-gray-300" data-ar="إغلاق" data-en="Close" onclick="closeModal('coming-soon-modal')">Close</button>
-</div>
-</div>
-</div>
 </body>
 </html>
